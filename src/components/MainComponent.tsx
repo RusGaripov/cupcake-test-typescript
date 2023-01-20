@@ -56,7 +56,6 @@ const MainComponent = () => {
     getSecond();
     getThird();
     if (dataFirst["rates"] && dataSecond["rates"] && dataThird["rates"]) {
-      console.log(dataFirst["rates"]);
       const objFirst = dataFirst["rates"];
       const objSecond = dataSecond["rates"];
       const objThird = dataThird["rates"];
